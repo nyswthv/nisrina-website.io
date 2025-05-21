@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Nisrina's Website</title>
+     <link rel="icon" type="image/x-icon" href="images/logo webpage icon .jpg">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+     <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<style>
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-wrapper {
+    flex: 1;
+    padding-bottom: 20px;
+}
+
+nav {
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+    
+nav ul li a:hover {
+    color: #f4aeb8;
+}
+
+.myhighschool {
+    margin-left: 5%;
+    margin-top: 0%;
+}
+
+.myhighschool h1 {
+    font-size: 20px;
+    color: #f4aeb8;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+span {
+    color: #e68fac;
+}
+
+.myhighschool p {
+    color: black;
+    line-height: 20px;
+    text-align: justify;
+}
+
+.carousel-custom {
+    align: left;
+    max-width: 500px;     
+    height: 360px;        
+    margin: auto;
+    position: relative;        
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;    
+}
+
+.footer {
+    background-color: #f4aeb8;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+</style>
+</head>
+
+<body>
+  <div class="content-wrapper">
+    <div class="hero">
+      <nav>
+         <img src="images/logo webpage icon.png" class="logo" width="10%" height="10%">
+         <ul>
+           <li><a href="index.html">Home</a></li>
+           <li><a href="me.html">About Me</a></li>
+           <li><a href="familyy.html">Family</a></li>
+           <li><a href="friends.html">Friends</a></li>
+           <li><a href="hobbies.html">Hobby</a></li>
+           <li><a href="memo.html">Memories</a></li>
+           <li><a href="contact.html">Contact</a></li>
+         </ul>
+      </nav>
+
+      <div class="myhighschool">
+        <h1><u><b>My Highschool Life Momento <img src="images/school.png"></b></u></h1> 
+
+        <!-- Content -->
+        <div class="container my-4">
+          <div class="row">
+            <!-- Text -->
+            <div class="col-md-6 d-flex align-items-center">
+              <div class="myhighschool">
+                <p style="font-size: 14px; font-weight: italic;">
+                  High school was honestly one of the most unforgettable chapters of my life. It wasn’t just about the classes, exams, or school rules , it was the people, the vibes, and the memories we built together that made it feel so special. Every day brought something different, and even though there were tough days, there was always something to smile or laugh about.<br><br>
+
+                  One memory that will forever stay with me was when I caught COVID and had to isolate. It was such a low moment for me, being away from everyone, feeling sick and lonely. But then, my amazing classmates planned a surprise birthday for me. Even though I couldn’t be there physically, they went out of their way to make me feel loved and remembered. I can't explain how much that meant to me. It was so thoughtful, so unexpected, and honestly one of the most touching moments I’ve ever experienced. That kind of genuine friendship is something rare and beautiful.<br><br>
+
+                  The whole environment at school was something else. We lived and studied together like one big (sometimes chaotic) family. Whether we were rushing to prep, gossiping in the dorms, playing sports, or just chilling during roll call, every small moment somehow became a memory worth keeping. The late-night talks, the endless group studies that turned into laugh sessions, the shared struggles and inside jokes, all of it made high school feel like home.<br><br>
+
+                  I’m genuinely so grateful to have had such caring and understanding friends. They made the hard days bearable and the good days even better. Now that we’ve all gone our separate ways, I do feel a bit sad that I don’t get to see their faces and hear their laughs every day like I used to. But I know deep down, those memories will always be with me. I’ll always carry the warmth of our friendship, the chaos of our teenage years, and the unbreakable bond we shared in those corridors of SMAP Labu. It wasn’t just school, it was a part of growing up that I’ll never forget.
+                </p>
+              </div>
+            </div>
+
+            <!-- Carousel -->
+            <div class="col-md-6">
+              <div id="demo" class="carousel slide carousel-custom" data-ride="carousel">
+                <ul class="carousel-indicators">
+                  <li data-target="#demo" data-slide-to="0" class="active"></li>
+                  <li data-target="#demo" data-slide-to="1"></li>
+                  <li data-target="#demo" data-slide-to="2"></li>
+                  <li data-target="#demo" data-slide-to="3"></li>
+                  <li data-target="#demo" data-slide-to="4"></li>
+                  <li data-target="#demo" data-slide-to="5"></li>
+                  <li data-target="#demo" data-slide-to="6"></li>
+                  <li data-target="#demo" data-slide-to="7"></li>
+                  <li data-target="#demo" data-slide-to="8"></li>
+                  <li data-target="#demo" data-slide-to="9"></li>
+                </ul>
+
+                <div class="carousel-inner">
+                  <div class="carousel-item active"><img src="images/prom3.png" alt="Prom 3"></div>
+                  <div class="carousel-item"><img src="images/prom1.png" alt="Prom 1"></div>
+                  <div class="carousel-item"><img src="images/5muqaffa.jpg" alt="5muqaffa"></div>
+                  <div class="carousel-item"><img src="images/batchkdc.png" alt="Batch"></div>
+                  <div class="carousel-item"><img src="images/grad.jpg"></div>
+                  <div class="carousel-item"><img src="images/memo5.png" alt="Memo 5"></div>
+                  <div class="carousel-item"><img src="images/sukan4.jpg" alt="Sukan"></div>
+                  <div class="carousel-item"><img src="images/memo8.png" alt="Memo 8"></div>
+                  <div class="carousel-item"><img src="images/memo.png" alt="Memo"></div>
+                  <div class="carousel-item"><img src="images/sportday1.jpg" alt="Sport Day"></div>
+                </div>
+
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- end .myhighschool -->
+    </div> <!-- end .hero -->
+  </div> <!-- end .content-wrapper -->
+
+  <div class="footer">
+    <p>&copy; 2025. Nur Nisrina Binti Norazali. All Rights Reserved | Last Updated: 21 May 2025</p>
+  </div>
+</body>
+</html>

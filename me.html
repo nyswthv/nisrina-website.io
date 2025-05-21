@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nisrina's Website</title>
+  <link rel="icon" type="image/x-icon" href="images\logo webpage icon .jpg">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+    }
+
+    .hero {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+    }
+
+    nav {
+      display: flex;
+      width: 84%;
+      margin: auto;
+      padding: 20px 0;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    nav ul li {
+      display: inline-block;
+      list-style: none;
+      margin: 10px 20px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #000;
+      font-weight: bold;
+    }
+
+    nav ul li a:hover {
+      color: #f4aeb8;
+    }
+
+    .aboutme, .imageofme {
+      margin-top: 10px;
+    }
+
+    .aboutme h1, .imageofme h1 {
+      font-size: 20px;
+      color: #f4aeb8;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+
+    .gallery-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      justify-content: center;
+      margin: 20px;
+    }
+
+    .gallery {
+      border: 1px solid pink;
+      width: 250px;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+    }
+
+    .gallery:hover {
+      transform: scale(1.03);
+      border-color: #777;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      display: block;
+    }
+
+    .desc {
+      margin-top: 10px;
+      padding: 10px;
+      text-align: center;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    .intro-section {
+      display: flex;
+      gap: 20px;
+      align-items: flex-start;
+      margin: 30px auto;
+      max-width: 1000px;
+      padding: 20px;
+    }
+
+    .intro-section img {
+      width: 300px;
+      height: 380px;
+      border: 2px solid #f4aeb8;
+      border-radius: 10px;
+    }
+
+    .intro-text {
+      overflow: hidden;
+    }
+
+
+table, th, td {
+     border: 2px solid black;
+     border-collapse: collapse;
+}
+
+th:nth-child(even), td:nth-child(even) {
+     background-color: #f4aeb8;
+}
+
+ div.table {
+     gap: 1rem;
+}
+
+    .footer {
+      background-color: #f4aeb8;
+      padding: 1px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="hero">
+    <nav>
+      <img src="images/logo webpage icon.png" class="logo" width="10%" height="10%">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="me.html">About Me</a></li>
+        <li><a href="familyy.html">Family</a></li>
+        <li><a href="friends.html">Friends</a></li>
+        <li><a href="hobbies.html">Hobby</a></li>
+        <li><a href="memo.html">Memories</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="aboutme">
+      <h1><u><b>All about Me &#9825;</b></u></h1>
+    </div>
+
+    <div class="intro-section">
+      <img src="images/nis7.jpg" alt="Nisrina photo">
+      <div class="intro-text">
+        <p style="text-align: justify;"> <br> Hi, I'm Nur Nisrina Binti Norazali, born and raised in Seremban, Negeri Sembilan. I was born on 15 April 2005, which means I recently turned 20,believe me, I still can’t quite wrap my head around the fact that my teenage years are officially over! It feels surreal to think that I’m now stepping into adulthood, with all the responsibilities and expectations that come with it. Learning to carry myself more like an adult is still a work in progress, but I'm embracing it one step at a time.
+
+I’m currently pursuing my Diploma in Library Informatics at UiTM Merbok, Kedah, now in my fourth semester,just one more to go before I complete this chapter of my academic journey. I’ve always had a curious mind and a heart full of diverse passions. From knowledge systems to the mysteries of the world around us, I find inspiration in both the seen and the unseen.
+
+While I’m still discovering where my path may lead, I believe that having many interests is a strength. It allows me to see the world through multiple lenses, to stay open, creative, and constantly learning.
+
+This space is where I share a bit of who I am and where I'm headed. Whether you're here out of curiosity or connection, I’m truly glad you stopped by.</p>
+      </div>
+    </div>
+
+    <div class="imageofme">
+      <h1><u><b>"My Polaroid &#9825;</b></u></h1>
+      <p style="text-align: center;"> <i> Just a girl with big dreams and a curious heart, capturing moments and memories along the way. </i></p>
+    </div>
+
+    <div class="gallery-wrapper">
+      <div class="gallery">
+        <a target="_blank" href="images/nis3.jpg">
+          <img src="images/nis3.jpg" alt="nisrina">
+        </a>
+        <div class="desc">&#9825 &#9825</div>
+      </div>
+
+      <div class="gallery">
+        <a target="_blank" href="images/nisrina1.png">
+          <img src="images/nisrina1.png" alt="nisrina">
+        </a>
+        <div class="desc">&#9825 &#9825</div>
+      </div>
+
+      <div class="gallery">
+        <a target="_blank" href="images/nisrina3.png">
+          <img src="images/nisrina3.png" alt="nisrina">
+        </a>
+        <div class="desc">&#9825 &#9825</div>
+      </div>
+
+      <div class="gallery">
+        <a target="_blank" href="images/nisrina5.png">
+          <img src="images/nisrina5.png" alt="nisrina">
+        </a>
+        <div class="desc">&#9825 &#9825</div>
+      </div>
+
+      <div class="gallery">
+        <a target="_blank" href="images/nisrina4.png">
+          <img src="images/nisrina4.png" alt="nisrina">
+        </a>
+        <div class="desc">&#9825 &#9825</div>
+      </div>
+    </div>
+
+   <br><br>
+
+        <!--My Schedule-->
+ <div class="table">
+  <h2 style="font-size: 20px; font-weight: bold; color: #f4aeb8; text-align: center; "><u> My Class Schedule </u></h2>
+    <p><center> Class KCDIM 1444B Semester 2025/2</center></p>
+  
+  <table style="margin-left: 20%; margin-right: 20%;">
+    <tr>
+       <th>Monday</th>
+       <th>Tuesday</th>
+       <th>Wednesday</th>
+       <th>Thursday</th>
+     </tr>
+        <tr>
+          <td> IML 256-Multimedia & Digital Publishing in Libraries (10:00am-12:00pm) </td>
+          <td> IML 258-Metadata In Development In Information Environment (10:00am-12:00pm) </td>
+          <td> IML 254-Introduction to Web Development (8:00am-10:00am) </td>
+          <td> IML 255-Subject Cataloguing and Classification (8:00am-10:00am) </td>
+       </tr>
+         <tr>
+          <td> IML 257-Libraries & Customers (3:00pm-4:00pm) </td>
+          <td> IML 257-Libraries & Customers (12:00pm-2:00pm) </td>
+          <td> IML 256-Multimedia & Digital Publishing in Libraries (10:00am-12:00pm) </td>
+          <td> IMC 258-Metadata in Development In Information Environment (12:00pm-1:00pm) </td>
+       </tr>
+         <tr>
+           <td> IML 254-Introduction to Web Development (4:00pm-6:00pm) </td>
+           <td> IML 255-Subject Cataloguing and Classifications (2:00pm-4:00pm) </td>
+           <td> - </td>
+           <td> - </td>
+         </tr>
+      </table>
+    </div>
+
+
+       <br><br>
+
+<div class="footer">
+   <p>&copy; 2025. Nur Nisrina Binti Norazali. All Right Reserved | Last Updated: 21 May 2025 </p>
+</div>
+
+  </div>
+</body>
+</html>
+
